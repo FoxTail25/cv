@@ -1,0 +1,22 @@
+
+.works__img {
+    width: 90%;
+}
+
+.work__link {
+    margin-left: 10px;
+}
+.work__tehnologis {
+    font-size: 1.6em;
+}
+.work__description {
+    font-size: 1.4em;
+    font-style: italic;
+    
+}
+
+@media (max-width: 700px) {
+    .works__img {
+        width: 98%;
+    }
+} 
