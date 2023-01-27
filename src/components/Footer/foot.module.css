@@ -1,0 +1,31 @@
+.footer__box {
+    position: sticky;
+    bottom: 0;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 10px;
+    background-color: rgba(245, 245, 245, 0.932);
+    margin-bottom: 0;
+    z-index: 2;
+}
+
+.footer__link {
+    padding: 10px;
+    opacity: 0.7;
+    transition: .1s;
+}
+.footer__link :hover {
+    filter: drop-shadow(0 0 10px rgb(255, 238, 0));
+    transition: .1s;
+}
+
+.footer__icon {
+    color: gold;
+    transition: .2s;
+}
+.footer__icon:hover {
+    filter: drop-shadow(0 0 5px rgb(251, 255, 0));
+    transition: .2s;
+}

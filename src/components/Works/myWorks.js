@@ -61,7 +61,7 @@ export const myWorks = [
         "https://dta-russia.ru/"
     ],
     workTech:'Технологии: HTML5, CSS3 (Flex, Grid, CSS-animation), JavaScript',
-    workDiscription:'Лендинг для реальной компании. Дизайн десктопной и мобильной версии разрабатывал самостоятельно. Многократно изменял по требованю заказчика. Приложением удобно пользоваться как на десктопе, так и на мобильных устройствах.'
+    workDiscription:'Лендинг для реальной компании. Респозитивный дизайн десктопной и мобильной версии разрабатывал самостоятельно. Многократно изменял по требованю заказчика. Сайт великолепно отображается как на десктопе (подстраивается под любую ширину экрана), так и на мобильных устройствах.'
 
 },
 
@@ -72,7 +72,7 @@ export const myWorks = [
         {
             label: 'Главная страница',
             imgPath:
-                './img/works/dta/dta.jpg',
+                './img/works/greencorp/green.jpg',
         },
         {
             label: 'Главная страница',
@@ -90,11 +90,11 @@ export const myWorks = [
                 './img/works/posts/adaptiv.jpg',
         },
     ],
-    links: ["https://dta-russia.ru/",
-        "https://dta-russia.ru/"
+    links: ["https://foxtail25.github.io/green-corp-landing/",
+        "https://github.com/FoxTail25/green-corp-landing"
     ],
-    workTech:'Технологии: HTML5, CSS3 (Flex, Grid, CSS-animation), JavaScript',
-    workDiscription:'Лендинг для реальной компании. Дизайн десктопной и мобильной версии разрабатывал самостоятельно. Многократно изменял по требованю заказчика. Приложением удобно пользоваться как на десктопе, так и на мобильных устройствах.'
+    workTech:'Технологии: HTML5, CSS3 (Flex, Grid), JavaScript (CANVAS-animation)',
+    workDiscription:'Простой лендинг по заданному дизайну. Анимация на первой странице сделана с помощью CANVAS. Реализован адаптив, сайтом удобно пользоваться как на десктопе, так и на мобильных устройствах.'
 
 }
 

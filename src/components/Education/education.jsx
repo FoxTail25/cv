@@ -9,6 +9,7 @@ import { Dubna } from './Dubna/dubna';
 import { Selfeducation } from './selfeducation/selfeducation';
 import './education.css'
 import { Technick } from './Technick/technick';
+import { Link } from '@mui/material';
 
 export default function Education() {
     const [expanded, setExpanded] = React.useState(false);
@@ -18,7 +19,8 @@ export default function Education() {
     };
 
     return (
-        <>
+       <> <Link id='education'/>
+        
             <h1 className='flex_column'>
                 Образование
             </h1>

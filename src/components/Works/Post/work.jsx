@@ -5,7 +5,7 @@
 function Work({projectName, image, links, workTech, workDiscription, ...rest}) {
 
   return (
-    <>
+    <div className="flex_column works__block">
 
       <h2>
         Проект {`"${projectName}"`}
@@ -34,7 +34,7 @@ function Work({projectName, image, links, workTech, workDiscription, ...rest}) {
       <p className="work__description">
         {workDiscription}
       </p>
-    </>
+    </div>
   )
 }
 

@@ -1,0 +1,29 @@
+.headex__box {
+    display: flex;
+     width: 100%;
+     position: sticky;
+      top: 0;
+      z-index: 2; 
+}
+.header__appbar {
+    padding: 5px;
+    background-color: rgba(245, 245, 245, 0.932);
+}
+.header__toolbar {
+    display: flex;
+    justify-content: space-between;
+}
+.header__avatar {
+    width: 60px;
+    height: 60px;
+}
+.header__button {
+    background-color: rgb(218, 218, 218);
+    font-size: 10px;
+    /* padding: 6px 4px;
+    border: none;
+    border-radius: 5px; */
+}
+.header__button:hover {
+    background-color: silver;
+}
