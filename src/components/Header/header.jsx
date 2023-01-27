@@ -53,7 +53,7 @@ export default function ButtonAppBar() {
               <Button variant='contained' size='small'
                 color='whitesteel'
                 style={{
-                  fontSize: '.7em'
+                  fontSize: '.7em', marginLeft: '10px'
                 }}
                 href='#education'
               >Образование</Button>
