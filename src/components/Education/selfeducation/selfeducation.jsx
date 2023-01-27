@@ -21,10 +21,10 @@ export const Selfeducation = () => {
             <div className='flex_row' 
             // style={{justifyContent: 'space-around'}}
             >
-                <img src='/img/sertificate/mimo1html.jpg' alt='img' className='selfeducation_img'
+                <img src='/img/sertificate/mimohtml.jpg' alt='img' className='selfeducation_img'
                  onClick={(e) => getImgSrc(e)}
                 />
-                <img src='/img/sertificate/mimo2sql.jpg' alt='img' className='selfeducation_img'
+                <img src='/img/sertificate/mimosql.jpg' alt='img' className='selfeducation_img'
                  onClick={(e) => getImgSrc(e)} 
                 />
             </div>
