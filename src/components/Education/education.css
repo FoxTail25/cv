@@ -1,3 +1,7 @@
+.education__anchor {
+    scroll-margin-top: 100px;
+    min-height: 100vh;
+}
 .education__block {
     cursor: pointer;
     width: 100%;
@@ -18,12 +22,11 @@
 }
 
 .education_text {
-    width: 70vw;
+    width: 60vw;
     text-align: left;
     margin: 0;
     cursor: pointer;
     font-size: 1em;
-    /* height: 100%; */
 }
 
 .education__sertificate {

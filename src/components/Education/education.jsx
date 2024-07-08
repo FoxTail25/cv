@@ -2,14 +2,12 @@ import * as React from 'react';
 import Accordion from '@mui/material/Accordion';
 import AccordionDetails from '@mui/material/AccordionDetails';
 import AccordionSummary from '@mui/material/AccordionSummary';
-// import Typography from '@mui/material/Typography';
 import ExpandMoreIcon from '@mui/icons-material/ExpandMore';
 import { SberUniver } from './Sberuniver/sberuniver';
 import { Dubna } from './Dubna/dubna';
 import { Selfeducation } from './selfeducation/selfeducation';
 import './education.css'
 import { Technick } from './Technick/technick';
-import { Link } from '@mui/material';
 
 export default function Education() {
     const [expanded, setExpanded] = React.useState(false);
@@ -19,13 +17,15 @@ export default function Education() {
     };
 
     return (
-       <> <Link id='education'/>
-        
+
+        <div id='education' className='education__anchor' >
+
             <h1 className='flex_column'>
                 Образование
             </h1>
-            <div style={{ alignSelf: 'center', maxWidth: '90%', margin: '0 5%' }}
-            >
+
+            <div style={{ alignSelf: 'center', maxWidth: '90%', margin: '0 5%' }}>
+
                 <Accordion expanded={expanded === 'panel1'} onChange={handleChange('panel1')}
                 >
                     <AccordionSummary
@@ -36,8 +36,8 @@ export default function Education() {
                         <h5 className='education__accordion__header'>
                             1998г.
                         </h5>
-                        
-                        <h5  className='education__accordion__header'>
+
+                        <h5 className='education__accordion__header'>
                             Среднее образование
                         </h5>
 
@@ -102,6 +102,8 @@ export default function Education() {
                     </AccordionDetails>
                 </Accordion>
             </div>
-        </>
+
+        </div>
+
     );
 }

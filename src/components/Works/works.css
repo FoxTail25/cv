@@ -1,9 +1,17 @@
+.works__anchor {
+    scroll-margin-top: 150px;
+}
+
 .works__block {
     padding: 20px;
     border-radius: 10px;
     margin: 10px 0;
-    background-color: whitesmoke;
+    background-color: rgba(245, 245, 245, 0.92);
     width: 80%;
+}
+
+.worklist__header {
+    text-align: center;
 }
 
 .works__img {

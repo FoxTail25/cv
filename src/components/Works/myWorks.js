@@ -33,7 +33,40 @@ export const myWorks = [
     },
 
     {
-    id: 2,
+        id: 2,
+        projectName: "Котики",
+        image: [
+            {
+                label: 'Главная страница',
+                imgPath:
+                    './img/works/cats/newcat.jpg',
+            },
+            {
+                label: 'Главная страница',
+                imgPath:
+                    './img/works/posts/allpost.jpg',
+            },
+            {
+                label: 'Детальная карточка поста',
+                imgPath:
+                    './img/works/posts/post.jpg',
+            },
+            {
+                label: 'Адаптивный дизайн',
+                imgPath:
+                    './img/works/posts/adaptiv.jpg',
+            },
+        ],
+        links: ["https://foxtail25.github.io/newCat/",
+            "https://github.com/FoxTail25/newCat/settings/pages"
+        ],
+        workTech:'Технологии: HTML5, CSS3 (Flex, Grid, CSS-animation), JavaScript',
+        workDiscription:'Учебный проект. Выполнен в качестве практического приминения полученных знаний. Основная задача: Реализовать функционал по добалению, редактированию и удалению карточек. Адаптивный дизайн и игру на заднем плане разрабатывал полностью самостоятельно. Как дополнение к основной задаче.'
+    
+    },
+
+    {
+    id: 3,
     projectName: "Дортехальянс",
     image: [
         {
@@ -66,7 +99,7 @@ export const myWorks = [
 },
 
     {
-    id: 3,
+    id: 4,
     projectName: "Green-corp-landing",
     image: [
         {

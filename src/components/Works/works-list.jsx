@@ -1,28 +1,22 @@
 import React from 'react'
 import './works.css'
 import { myWorks } from './myWorks.js'
-import Work from './Post/work'
-import { Link } from '@mui/material'
+import Work from './Work/work'
 
 export const WorksList = () => {
 
-
-
     return (
-        <><Link id='project'/>
+        <>
+        <div id='project' className='works__anchor'/>
             <div className='flex_column works__list' style={{
-                width: '100%', marginTop: '45px'
+                width: '100%', scrollMarginTop: '40px'
             }}>
 
-               
-                    <h1>
+                    <h1 className='worklist__header'>
                         Примеры моих работ
                     </h1>
                 
-                <div
-                    className='flex_column'
-
-                >
+                <div className='flex_column' >
                     {
                         myWorks.map((el) => <Work key={el.id} {...el} />)
                     }
